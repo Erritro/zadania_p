@@ -18,7 +18,7 @@ def srednia(macierz):
     return sum(lista)/len(lista)
 
 for i in range(wiersze):
-    w = input("Podaj elementy " + str(i) + "wiersza oddzielone spacją: ")
+    w = input("Podaj elementy " + str(i+1) + " wiersza oddzielone spacją: ")
     w = w.split(" ")
     w = [int(i) for i in w] # zmieniam elementy na str
     macierz.append(w) # dodaję całą liste jako pierwszy wiersz
